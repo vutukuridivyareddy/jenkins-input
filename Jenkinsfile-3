@@ -21,7 +21,7 @@ pipeline {
         }
         sh '''
           hostname
-          cat /etc/redhat-release
+          cat /etc/os-release
         '''
       }
     }
